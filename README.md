@@ -31,6 +31,6 @@ Configure and test basic firewall rules on **Windows Firewall** to allow or bloc
 <img width="922" height="185" alt="Screenshot 2025-09-27 133950" src="https://github.com/user-attachments/assets/fbeaf59a-4799-494f-a5d6-710593bb48f6" />
 
 Tested using:
-```cmd
+- cmd and Windows Powershell
 
 
