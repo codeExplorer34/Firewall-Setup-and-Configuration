@@ -1,0 +1,29 @@
+# Task 4 – Setup and Use a Firewall on Windows
+
+## 📌 Objective
+Configure and test basic firewall rules on **Windows Firewall** to allow or block network traffic.
+
+---
+
+## ⚙️ Steps Performed
+
+### 1. Listed Current Firewall Rules
+- Opened `wf.msc` (Windows Defender Firewall with Advanced Security).
+- Viewed **Inbound Rules** list.  
+
+![Current Rules](screenshots/current-rules.png)
+
+---
+
+### 2. Blocked Telnet (Port 23)
+- Created new inbound rule:
+  - Type: **Port**
+  - Protocol: **TCP**
+  - Port: **23**
+  - Action: **Block the connection**
+  - Applied to: Domain, Private, Public
+- Rule named: **Block Telnet (Port 23)**
+
+Tested using:
+```cmd
+telnet localhost 23
